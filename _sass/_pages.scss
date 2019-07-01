@@ -594,3 +594,15 @@ padding: 60px 5%;
 	margin: 0 auto;
 }
 
+.wiki-main-wrapper {
+	padding: 60px 0;
+	p {
+		&.caption {
+			font-style: italic;
+			font-weight: bold;
+			color: $fr-red;
+			text-align: center;
+		}
+	}
+}
+
