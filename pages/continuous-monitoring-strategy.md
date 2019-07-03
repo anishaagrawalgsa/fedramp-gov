@@ -40,9 +40,9 @@ body-class: wiki
 </ol>
 
 
-<section id="conmon-process"><h2>Continuous Monitoring Process </h2>
+<div id="conmon-process"><h2>Continuous Monitoring Process </h2>
 	<hr>
-<p>The FedRAMP continuous monitoring program is based on the continuous monitoring process described in NIST SP 800-137, Information Security Continuous Monitoring for Federal Information Systems and Organization. The goal is to provide: (i) operational visibility; (ii) managed change control; and (iii) attendance to incident response duties. For more information on incident response, review the FedRAMP Incident Communications Procedure.</p>
+<p>The FedRAMP continuous monitoring program is based on the continuous monitoring process described in <em>NIST SP 800-137, Information Security Continuous Monitoring for Federal Information Systems and Organization</em>. The goal is to provide: (i) operational visibility; (ii) managed change control; and (iii) attendance to incident response duties. For more information on incident response, review the FedRAMP <em>Incident Communications Procedure</em>.</p>
 					
 <p>The effectiveness of a CSP’s continuous monitoring capability supports ongoing authorization and reauthorization decisions. Security-related information collected during continuous monitoring is used to make updates to the security authorization package. Updated documents provide evidence that FedRAMP baseline security controls continue to safeguard the system as originally planned.	</p>
 
@@ -51,16 +51,18 @@ body-class: wiki
 <li><strong>Define</strong> a continuous monitoring strategy based on risk tolerance that maintains clear visibility into assets and awareness of vulnerabilities and utilizes up-to-date threat information.</li>
 <li><strong>Establishz</strong> measures, metrics, and status monitoring and control assessments frequencies that make known organizational security status and detect changes to information system infrastructure and environments of operation, and status of security control effectiveness in a manner that supports continued operation within acceptable risk tolerances.</li>
 <li><strong>Implement</strong> a continuous monitoring program to collect the data required for the defined measures and report on findings; automate collection, analysis, and reporting of data where possible.</li>
-<li><strong>Analyze</strong> the data gathered and Report findings accompanied by recommendations. It may become necessary to collect additional information to clarify or supplement existing monitoring data.</li>
+<li><strong>Analyze</strong> the data gathered and <strong>Report</strong> findings accompanied by recommendations. It may become necessary to collect additional information to clarify or supplement existing monitoring data.</li>
 <li><strong>Respond</strong> to assessment findings by making decisions to either mitigate technical, management, and operational vulnerabilities, or accept the risk; or transfer it to another authority.</li>
-<li><strong>Review</strong> and Update the monitoring program, revising the continuous monitoring strategy and maturing measurement capabilities to increase visibility into assets and awareness of vulnerabilities; further enhance data-driven control of the security of an organization’s information infrastructure; and increase organizational flexibility.</li>
+<li><strong>Review</strong> and <strong>Update</strong> the monitoring program, revising the continuous monitoring strategy and maturing measurement capabilities to increase visibility into assets and awareness of vulnerabilities; further enhance data-driven control of the security of an organization’s information infrastructure; and increase organizational flexibility.</li>
 </ul>
 <p class="caption"><strong>Figure 1. NIST Special Publication 800-137 Continuous Monitoring Process 
 </strong></p>
+<div class="image-wrapper">
 <img title="Continuous Monitoring Process" alt="Continuous Monitoring Process" src="{{site.baseurl}}/assets/img/conmon-fig1.png">
+</div>
 <p>Security control assessments performed periodically validate whether stated security controls are implemented correctly, operating as intended, and meet FedRAMP baseline security controls. Security status reporting provides federal officials with information necessary to make risk-based decisions and provides assurance to existing customer agencies regarding the security posture of the system. </p>
-</section>
-<section id="conmon-roles"><h2>Continuous Monitoring Roles and Responsibilities</h2>  
+</div>
+<div id="conmon-roles"><h2>Continuous Monitoring Roles and Responsibilities</h2>  
 <hr>
 <h3>Agency Authorizing Official (AO)</h3> 
 <p>Agency AOs and their teams oversee the CSP’s continuous monitoring activities on behalf of their Agency. They must review all security artifacts provided by the CSP, 3PAO, or FedRAMP to ensure the CSP’s security posture remains sufficient for their Agency’s use of the system.</p>
@@ -113,8 +115,8 @@ Assist government-wide and agency-specific efforts to provide adequate, risk-bas
 <li>If scans are performed by the CSP, the 3PAO must either be on site and observe the CSP performing the scans or be able to monitor or verify the results of the scans through other means documented and approved by the AO.</li>
 <li>Documentation provided to the CSP must be placed in a format that either the CSP cannot alter or that allows the 3PAO to verify the integrity of the document.</li>
 </ul>
-</section>
-<section id="conmon-process-areas">
+</div>
+<div id="conmon-process-areas">
 <h2>Continuous Monitoring Process Areas </h2>
 <hr>
 <h3>Operational Visibility  </h3>
@@ -123,8 +125,48 @@ Assist government-wide and agency-specific efforts to provide adequate, risk-bas
 <p>Table 1 below identifies the deliverables required as part of continuous monitoring activities. These deliverables include providing evidence, such as providing monthly vulnerability scans of CSPs operating systems/infrastructure, databases, and web applications.</p>
 
 <p>As part of the continuous monitoring process, CSPs are required to have a 3PAO perform an assessment on an annual basis for a subset of the overall controls implemented on the system. During the annual assessment, the controls listed in Table 2 are tested along with an additional number of controls selected by the AO. The AO has the option to vary the total number of controls tested to meet the desired level of effort for testing. The AO selects the additional controls for testing based on the following criteria in Table 1.</p>
-
-
+<p class="caption"><strong>Table 1. Control Selection Criteria</strong></p>
+<table>
+<tbody>
+<tr>
+<th colspan="2">
+CRITERIA
+</th>
+<th>
+DESCRIPTION</th>
+</tr>
+<tr>
+<td>1.</td>
+<td><strong>Conditions from previous assessment</strong></td>
+<td>Any conditions made by the AO in the authorization letter or during a previous assessment. This includes the resolution of vulnerabilities within designated time-frames and implementations of new capabilities.</td>
+</tr>
+<tr>
+<td>2.</td>
+<td><strong>Weakness identified since the last assessment</strong></td>
+<td>Any area where the system has known vulnerabilities or enhanced risk related to specific controls, such as an actual or suspected intrusion , compromise, malware event, loss of date, or denial of service (DoS) attack.</td>
+</tr>
+<tr>
+<td>3.</td>
+<td><strong>Known or suspected testing/continuous monitoring failure</strong></td>
+<td>Any area where the cloud system demonstrated a weakness or vulnerability in continuous monitoring or testing related to specific security controls, such as controls related to patch management, configuration management, or vulnerability scanning.</td>
+</tr>
+<tr>
+<td>4.</td>
+<td><strong>Control implementation that has changed since last assessment</strong></td>
+<td>Any control implementation that has changed since the last assessment must be independently assessed, even if it does not rise to the threshold of <em>significant change</em></td>
+</tr>
+<tr>
+<td>5.</td>
+<td><strong>Newly discovered vulnerability, zero-day attack, or exploit</strong></td>
+<td>Any control that is potentially affected by newly discovered vulnerabilities or zero-day exploits, such as the Heartbleed vulnerability</td>
+</tr>
+<tr>
+<td>6.</td>
+<td><strong>Recommendation of Authorizing Official or Organization</strong></td>
+<td>Based on direct knowledge and use of a cloud system, authorizing officials or organizations can require the CSP to test additional controls based on unique mission concerns or based on the CSP's performance since their last assessment.</td>
+</tr>
+</tbody>
+</table>
 <h3>Change Control   </h3>
 <p>Systems are dynamic, and FedRAMP anticipates all systems are in a constant state of change. Configuration management and change control processes help maintain a secure baseline configuration of the CSP’s architecture. Routine day-to-day changes are managed through the CSP’s change management process described in their Configuration Management Plan.</p>
 
@@ -148,8 +190,8 @@ Assist government-wide and agency-specific efforts to provide adequate, risk-bas
 <p>FedRAMP requires the CSP to demonstrate they are able to adequately respond to security incidents. As part of the FedRAMP authorization process, the CSP is required to submit and maintain an incident response plan, which the AO approves. The CSP is also required to follow the incident response and reporting guidance contained in the FedRAMP Incident Communications Procedure.</p>
 
 <p>At the government’s discretion, FedRAMP or individual Agency AOs may direct the CSP to treat certain critical vulnerabilities as incidents, such as "zero day" vulnerabilities (e.g., Heartbleed). CSPs must take immediate action to fully resolve the vulnerability if possible, or at least implement mitigating factors. The FedRAMP PMO may request immediate reporting on these items. FedRAMP may request immediate reporting on these critical vulnerabilities, both for JAB P-ATO and FedRAMP Agency ATO systems. The CSP must continue to track critical vulnerabilities in the system’s POA&M even when they are providing special reporting to FedRAMP.</p>
-</section>
-<section id="control-frequencies">
+</div>
+<div id="control-frequencies">
 <h2>Control Frequencies  </h2>
 <hr>
 <p>Security controls have different frequencies for performance and review, and some controls require review more often than others. Table 2 summarizes the minimally required frequencies needed for each continuous monitoring activity. Some activities require the CSP to submit a deliverable to FedRAMP. Note the CSP is required to submit deliverables listed in Table 2 if they have full or shared responsibility for the listed control; however, the CSP is not responsible for deliverables related to fully inherited controls. For example, if a Software as a Service (SaaS) system fully inherits physical and environmental protection controls from a separately-authorized underlying Infrastructure as a Service (IaaS) system, no deliverables are required from the CSP with the SaaS system inheriting those controls.</p>
@@ -162,8 +204,8 @@ Assist government-wide and agency-specific efforts to provide adequate, risk-bas
 <p>CSPs are required to submit a schedule of activities to the AO within 15 days from the date of their authorization and annually thereafter. This schedule assists CSPs in managing continuous monitoring activities.</p>
 
 <p><strong>Note:</strong> For controls that do not have a check in either the CSP authored deliverable or 3PAO authored deliverable columns in Table 2, the CSP is required to provide evidence of compliance minimally during annual assessment and upon request.</p>
-</section>
-<section id="monthly-reporting-summary">
+</div>
+<div id="monthly-reporting-summary">
 <h2>Monthly Reporting Summary </h2>
 <hr>
 <p>As described in the FedRAMP requirements, CSPs must provide monthly reports of all vulnerability scanning to authorizing officials for review and track these vulnerabilities within the POA&Ms. These deliverables are really a subset of the evidence required at time of authorization. In this vein, the analysis of these scan results should be performed in the same manner they were for time of authorization. In particular, this means the CSP must:</p>
@@ -174,8 +216,8 @@ Assist government-wide and agency-specific efforts to provide adequate, risk-bas
 </ul>
 
 <p>On a monthly basis, the AO monitors these deliverables to ensure the CSP maintains an appropriate risk posture, which typically means the risk posture stays at the level of authorization or improves. As stated in their authorization letter, the CSP is required to maintain a continuous monitoring program. FedRAMP’s review and analysis of the CSP’s continuous monitoring deliverables results in a continuous authorization decision by the AO every month. request.</p>
-</section>
-<section id="jab-conmon-monitoring-analysis">
+</div>
+<div id="jab-conmon-monitoring-analysis">
 <h2>JAB P-ATO Continuous Monitoring Analysis </h2>
 <p>This section provides Agency AOs and CSPs with key aspects of FedRAMP’s analysis of continuous monitoring deliverables for those systems with a JAB P-ATO:</p>
 <ul>
@@ -214,10 +256,12 @@ Assist government-wide and agency-specific efforts to provide adequate, risk-bas
 </ul>
 
 <p class="caption"><strong>Figure 2. FedRAMP Continuous Monitoring Report Example </strong></p>
+<div class="image-wrapper">
 <img src="{{site.baseurl}}/assets/img/conmon-example.png" title="FedRAMP Continuous Monitoring Report Example" alt="FedRAMP Continuous Monitoring Report Example">
-</section>
-<section id="conmon-performance-mgmt">
+</div>
+</div>
+<div id="conmon-performance-mgmt">
 <h2>Continuous Monitoring Performance Management  </h2>
 <hr>
-<p>Failure to adhere to FedRAMP’s ConMon requirements for a P-ATO may result in escalation actions by the FedRAMP PMO and JAB. FedRAMP provides ConMon Performance Management guidance that details the processes that FedRAMP and the JAB use to maintain appropriate ConMon performance for CSPs with JAB P-ATOs. CSPs with Agency ATOs also must maintain compliance with FedRAMP ConMon requirements outlined in the ATO letter. FedRAMP recommends Agencies create guides and/or use FedRAMP’s Continuous Monitoring Performance Management guidelines when maintaining FedRAMP Agency ATOs. </p>
-</section></div>
+<p>Failure to adhere to FedRAMP’s ConMon requirements for a P-ATO may result in escalation actions by the FedRAMP PMO and JAB. FedRAMP provides <a href="{{site.baseurl}}/conmon-performance-mgmt/">ConMon Performance Management</a> guidance that details the processes that FedRAMP and the JAB use to maintain appropriate ConMon performance for CSPs with JAB P-ATOs. CSPs with Agency ATOs also must maintain compliance with FedRAMP ConMon requirements outlined in the ATO letter. FedRAMP recommends Agencies create guides and/or use <a href="{{site.baseurl}}/conmon-performance-mgmt/">FedRAMP’s Continuous Monitoring Performance Management guidelines</a> when maintaining FedRAMP Agency ATOs. </p>
+</div></div>

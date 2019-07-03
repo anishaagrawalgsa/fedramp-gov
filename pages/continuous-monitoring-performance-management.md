@@ -27,23 +27,23 @@ body-class: wiki
 <li><a href="#jab-p-ato-performance-mgmt">JAB P-ATO Performance Management</a>
 	<ul>
 <li><a href="#jab-escalation-levels-and-process">1.1 JAB Escalation Levels and Process</a></li>
-<li>1.2 JAB ConMon Requirements: Risk Management Deficiency Triggers</li>
-<li>1.3 JAB Customer Demand</li>
+<li><a href="#risk-deficiency-triggers">1.2 JAB ConMon Requirements: Risk Management Deficiency Triggers</a></li>
+<li><a href="customer-demand">1.3 JAB Customer Demand</a></li>
 	</ul>
 </li>
-<li>Agency ATO Performance Management
+<li><a href="ato-performance-mgmt">Agency ATO Performance Management</a>
 	<ul>
-<li>2.1 Agency Escalation Levels and Process</li>
-<li>2.2 Agency ConMon Requirements: Risk Management Deficiency Triggers</li>
-<li>2.3 FedRAMP Responsibilities for Agency ATOs	</li>
+<li><a href="agency-escalation-levels-process">2.1 Agency Escalation Levels and Process</a></li>
+<li><a href="agency-conmon-risk-mgmt-triggers">2.2 Agency ConMon Requirements: Risk Management Deficiency Triggers</a></li>
+<li><a href="fedramp-for-agency-atos">2.3 FedRAMP Responsibilities for Agency ATOs</a></li>
 	</ul>
 </li>
 </ol>
 
 
-<section id="jab-p-ato-performance-mgmt"><h2>JAB P-ATO Performance Management </h2>
-<hr></section>
-<section id="jab-escalation-levels-and-process">
+<div id="jab-p-ato-performance-mgmt"><h2>JAB P-ATO Performance Management </h2>
+<hr></div>
+<div id="jab-escalation-levels-and-process">
 <h3>JAB Escalation Levels and Process </h3>
 <p>As a condition of a JAB P-ATO, the CSP agrees to meet the requirements described in the FedRAMP Continuous Monitoring Strategy Guide at <a href="https://www.fedramp.gov/documents/"><strong>https://www.fedramp.gov/documents/</strong></a>. If the CSP fails to meet the requirements, FedRAMP initiates an escalation process, which may result in one of the following escalation levels:</p>
 <ul>
@@ -68,31 +68,31 @@ body-class: wiki
 <li>In rare cases, FedRAMP may determine the deficiency is severe enough to make the escalation effective immediately, in which case, steps 3 and 4 are skipped.</li>
 	</ul>
 </li>
-<li>FedRAMP notifies the CSP of the deficiency and FedRAMP’s intended escalation. Depending on the intended escalation level, the notice comes from:
+<li><strong>FedRAMP notifies the CSP of the deficiency and FedRAMP’s intended escalation</strong>. Depending on the intended escalation level, the notice comes from:
 	<ul>
 <li>The FedRAMP POC for an intended DFR; or</li>
 <li>The FedRAMP Director for an intended CAP, Suspension, or Revocation.</li>
 	</ul></li>
-<li>The CSP responds to the notification. The CSP’s response should include any information that may rebut the escalation decision. Depending on the intended escalation level, the CSP’s response must come from:
+<li><strong>The CSP responds to the notification.</strong> The CSP’s response should include any information that may rebut the escalation decision. Depending on the intended escalation level, the CSP’s response must come from:
 	<ul>
 <li>The CSP’s security POC for DFR; or</li>
 <li>The CSP’s system owner for a CAP, Suspension, or Revocation.</li>
 	</ul>
 </li>
-<li>FedRAMP reviews and adjudicates the CSP’s response, and renders a formal escalation decision. Depending on the escalation level, the decision is made by:
+<li><strong>FedRAMP reviews and adjudicates the CSP’s response, and renders a formal escalation decision.</strong> Depending on the escalation level, the decision is made by:
 <ul>
 <li>The FedRAMP POC for a DFR;</li>
 <li>The FedRAMP Director for a CAP; or</li>
 <li>The JAB for a Suspension or Revocation.</li>
 </ul>
 </li>
-<li>FedRAMP notifies the CSP of its decision. If FedRAMP decides to follow through with an escalation, this notice:
+<li><strong>FedRAMP notifies the CSP of its decision.</strong> If FedRAMP decides to follow through with an escalation, this notice:
 	<ul>
 <li>Identifies the criteria for returning the system to a “Satisfactory” status. It may also include a deadline by which the CSP must fully satisfy the criteria or face more severe escalation; and</li>
 <li>Requires certain actions from the CSP. Typically, FedRAMP requires the CSP to perform a root-cause analysis and develop a formal plan for addressing the deficiencies.</li>
 	</ul>
 </li>
-<li>CSP responds to the FedRAMP notification. This response must include:
+<li><strong>CSP responds to the FedRAMP notification.</strong> This response must include:
 	<ul>
 <li>The results of the root cause analysis;</li>
 <li>The CSP’s plan for fully resolving the issues, with clearly established milestones and dates, including a date of full resolution;</li>
@@ -107,7 +107,7 @@ body-class: wiki
 <li><strong>Monthly ConMon Reporting to Leveraging Agencies:</strong> FedRAMP updates the next Monthly ConMon report to reflect the cited deficiencies, escalation level, and the CSP’s identified resolution date.</li>
 <li>The system’s status is changed to “Minor Concern” for a DFR, or “Major Concern” for a CAP or Suspension. The status remains, and the CSP’s progress is reported each month until FedRAMP determines the issue is fully resolved.</li>
 <li>FedRAMP discontinues ConMon reporting when the system’s P-ATO is suspended or revoked.</li>
-<li>Other Postings and Notifications to Leveraging Agencies: If there is a CAP, Suspension, or Revocation, FedRAMP posts a letter to its secure repository (OMB MAX) for review by leveraging Agencies, as is the CSP’s plan for resolution where appropriate. The information is retained indefinitely for historical reference.</li>
+<li><strong>Other Postings and Notifications to Leveraging Agencies:</strong> If there is a CAP, Suspension, or Revocation, FedRAMP posts a letter to its secure repository (OMB MAX) for review by leveraging Agencies, as is the CSP’s plan for resolution where appropriate. The information is retained indefinitely for historical reference.</li>
 </ul>
 <p>If a system’s P-ATO is suspended or revoked, FedRAMP notifies each known leveraging Agency directly, and requires the CSP to ensure the list of FedRAMP known leveraging Agencies matches the CSP’s customer list for the impacted system.</p>
 <p><em>Note: P-ATO Revocation does not automatically result in revocation of each leveraging Agency’s ATO. Each leveraging Agency’s AO reviews the circumstances of P-ATO Revocation, and makes a determination regarding the status of the ATO they issued the system on behalf of their Agency.</em></p>
@@ -119,11 +119,12 @@ body-class: wiki
 <p>When FedRAMP determines the CSP has fully resolved the cited deficiencies and satisfied the FedRAMP-identified criteria communicated in the notification, FedRAMP takes the following actions:</p>
 <ul>
 <li><strong>Notification to CSP:</strong> The FedRAMP POC notifies the CSP’s security POC when FedRAMP agrees a DFR is fully satisfied. The FedRAMP Director notifies the system owner when FedRAMP agrees a CAP or Suspension is fully satisfied.</li>
-<li>Monthly ConMon Reporting to Leveraging Agencies: FedRAMP updates the next monthly report to reflect all cited deficiencies are resolved and the escalation level is no longer in effect. The status is returned to “Satisfactory.”</li>
-<li>Other Postings and Notifications to Leveraging Agencies: The FedRAMP Director posts a letter to the secure repository indicating the CAP or Suspension is fully resolved to FedRAMP’s satisfaction, and the CSP is once again in good standing. As no letter is posted when a DFR is initiated, no letter is posted when it is resolved.</li>
-<li>FedRAMP Marketplace: FedRAMP returns the system’s status to its normal listing with no indication of an escalation level.</li>
+<li><strong>Monthly ConMon Reporting to Leveraging Agencies:</strong> FedRAMP updates the next monthly report to reflect all cited deficiencies are resolved and the escalation level is no longer in effect. The status is returned to “Satisfactory.”</li>
+<li><strong>Other Postings and Notifications to Leveraging Agencies:</strong> The FedRAMP Director posts a letter to the secure repository indicating the CAP or Suspension is fully resolved to FedRAMP’s satisfaction, and the CSP is once again in good standing. As no letter is posted when a DFR is initiated, no letter is posted when it is resolved.</li>
+<li><strong>FedRAMP Marketplace:</strong> FedRAMP returns the system’s status to its normal listing with no indication of an escalation level.</li>
 </ul>
-
+</div>
+<div id="risk-deficiency-triggers">
 <h2>JAB ConMon Requirements: Risk Management Deficiency Triggers </h2>
 <hr>
 <p>To ensure consistent expectations and enforcement, FedRAMP defines risk management deficiency “triggers.” When a CSP’s performance exceeds one or more of the thresholds, defined in Table 1. JAB Risk Management Deficiency Triggers below, FedRAMP will, at a minimum, take the prescribed action.   </p>
@@ -132,13 +133,13 @@ body-class: wiki
 <tbody>
 <tr>
 <th>
-<p><strong>CONMON PROCESS AREA</strong></p>
+<strong>CONMON PROCESS AREA</strong>
 </th>
 <th>
-<p><strong>RISK MANAGEMENT DEFICIENCY TRIGGER</strong></p>
+<strong>RISK MANAGEMENT DEFICIENCY TRIGGER</strong>
 </th>
 <th>
-<p><strong>MINIMUM ESCALATION LEVEL</strong></p>
+<strong>MINIMUM ESCALATION LEVEL</strong>
 </th>
 </tr>
 <tr>
@@ -336,47 +337,51 @@ body-class: wiki
 </tr>
 </tbody>
 </table>
-
+</div>
+<div id="customer-demand">
 <h3>JAB Customer Demand   </h3>
 <p>To remain eligible for a JAB P-ATO, FedRAMP requires a minimum of six unique Agency customers with authorizations[1] that leverage the system’s JAB P-ATO. FedRAMP evaluates CSP customer demand on a quarterly basis to ensure CSPs with P-ATOs are meeting and maintaining FedRAMP demand thresholds.</p>
 
 <p>A CSP that has fewer than six unique FedRAMP ATOs posted on the FedRAMP secure repository will be placed on a CAP at the discretion of the FedRAMP Program Management Office (PMO) and JAB. A CSP that cannot meet or maintain this demand threshold has the opportunity to pursue FedRAMP Agency Authorizations, in lieu of the P-ATO, with the support of the FedRAMP PMO.</p>
 
 <p>FedRAMP established this threshold based on JAB resources, to ensure JAB ConMon resources are focused on systems that result in broader impact across the Federal Government. FedRAMP may adjust this threshold at its discretion due to changes in available resources and overall demand across the Federal Government for cloud services.</p>
-
+</div>
+<div id="ato-performance-mgmt">
 <h2>Agency ATO Performance Management </h2>
 <hr>
+</div>
+<div id="agency-escalation-levels-process">
 <h3>Agency Escalation Levels and Process </h3>
 <p>Similar to JAB performance management of CSPs with P-ATOs, Agencies should implement an escalation process to monitor their authorized CSPs, which may result in one of the following escalation levels. Agency AOs can determine which escalation levels are appropriate:</p>
 <ul>
-<li>Detailed Finding Review (DFR): A request from the Agency AO (or representative) for the CSP’s security POC to assess a deficiency, and report the cause and remedy back to the Agency AO. If the CSP does not resolve a DFR within the agreed upon timeframe, the Agency AO may escalate to a corrective action plan.</li>
-<li>Corrective Action Plan (CAP): A request from the Agency AO for the CSP’s system owner to perform a root-cause analysis and provide a formal plan for remediation. If the CSP does not resolve a CAP within the agreed upon timeframe, the Agency AO may suspend or revoke the system’s ATO.</li>
-<li>Suspension: A decision by the Agency AO to temporarily suspend a system’s ATO until identified deficiencies are resolved. In this phase, an Agency may choose to suspend new instance use of the system. If the CSP does not resolve a Suspension within the agreed upon timeframe, or if the Agency AO determines the CSP can no longer meet FedRAMP compliance requirements, the Agency AO may revoke the system’s ATO.</li>
-<li>Revocation: A decision by the Agency AO to revoke a system’s ATO and migrate the data to another system.</li>
+<li><strong>Detailed Finding Review (DFR):</strong> A request from the Agency AO (or representative) for the CSP’s security POC to assess a deficiency, and report the cause and remedy back to the Agency AO. If the CSP does not resolve a DFR within the agreed upon timeframe, the Agency AO may escalate to a corrective action plan.</li>
+<li><strong>Corrective Action Plan (CAP):</strong> A request from the Agency AO for the CSP’s system owner to perform a root-cause analysis and provide a formal plan for remediation. If the CSP does not resolve a CAP within the agreed upon timeframe, the Agency AO may suspend or revoke the system’s ATO.</li>
+<li><strong>Suspension:</strong> A decision by the Agency AO to temporarily suspend a system’s ATO until identified deficiencies are resolved. In this phase, an Agency may choose to suspend new instance use of the system. If the CSP does not resolve a Suspension within the agreed upon timeframe, or if the Agency AO determines the CSP can no longer meet FedRAMP compliance requirements, the Agency AO may revoke the system’s ATO.</li>
+<li><strong>Revocation:</strong> A decision by the Agency AO to revoke a system’s ATO and migrate the data to another system.</li>
 </ul>
 <p>When the Agency AO identifies a deficiency in the CSP’s ConMon capabilities, the Agency AO should initiate the escalation process described below.</p>
 <p>The escalation process occurs as follows:</p>
 <ol>
-	<li>The Agency AO identifies a deficiency with the CSP’s ConMon information.</li>
-<li>The Agency AO reviews the deficiency and compares it to the CSP’s past ConMon performance. As a result of the review, the Agency AO decides on one of the following actions:
+	<li><strong>The Agency AO identifies a deficiency with the CSP’s ConMon information.</strong></li>
+<li><strong>The Agency AO reviews the deficiency and compares it to the CSP’s past ConMon performance.</strong> As a result of the review, the Agency AO decides on one of the following actions:
 	<ul>
 <li>The Agency AO may elect to simply monitor the CSP more closely and take no further action. If so, no notice is sent and the process stops here;</li>
 <li>The Agency AO may increase a CSP’s existing escalation level. For example, a CSP on a CAP may face Suspension; or</li>
 <li>The Agency AO may determine the deficiency is severe enough to make the escalation effective immediately, in which case, Steps 3 and 4 are skipped.</li>
 	</ul></li>
 <li>The Agency AO notifies the CSP of the deficiency and the Agency AO’s intended escalation.</li>
-<li>The CSP responds to the notification. The CSP’s response should include any information that may rebut the escalation decision. Depending on the intended escalation level, the CSP’s response must come from:
+<li><strong>The CSP responds to the notification.</strong> The CSP’s response should include any information that may rebut the escalation decision. Depending on the intended escalation level, the CSP’s response must come from:
 	<ul>
 <li>The CSP’s security POC for a DFR; or</li>
 <li>The CSP’s system owner for a CAP, Suspension, or Revocation.</li>
 	</ul></li>
-<li>The Agency AO reviews and adjudicates the CSP’s response, and renders a formal escalation decision.</li>
-<li>The Agency AO notifies the CSP of its decision. If the Agency AO decides to follow through with an escalation, this notice:
+<li><strong>The Agency AO reviews and adjudicates the CSP’s response, and renders a formal escalation decision.</strong></li>
+<li><strong>The Agency AO notifies the CSP of its decision.</strong> If the Agency AO decides to follow through with an escalation, this notice:
 <ul>
 <li>Identifies the criteria for returning the system to a “Satisfactory” status. It may also include a deadline by which the CSP must fully satisfy the criteria or face more severe escalation; and</li>
 <li>Requires certain actions from the CSP. Typically, an Agency AO would require the CSP to perform a root-cause analysis and develop a formal plan for addressing the deficiencies.</li>
 </ul></li>
-<li>The CSP responds to the Agency AO notification. This response must include:
+<li><strong>The CSP responds to the Agency AO notification.</strong> This response must include:
 <ul>
 	<li>The results of the root cause analysis;</li>
 <li>The CSP’s plan for fully resolving the issues, with clearly established milestones and dates, including a date of full resolution;</li>
@@ -386,12 +391,14 @@ body-class: wiki
 </ol>
 <p>When a CSP is subject to escalation as described above, the following occurs:</p>
 <ul>
-	<li>Notification to FedRAMP: Agency AOs must notify FedRAMP at info@fedramp.gov if a decision is made to initiate Suspension or Revocation. Agency CAP letters should be posted to the FedRAMP secure repository.</li>
+	<li><strong>Notification to FedRAMP:</strong> Agency AOs must notify FedRAMP at info@fedramp.gov if a decision is made to initiate Suspension or Revocation. Agency CAP letters should be posted to the FedRAMP secure repository.</li>
 </ul>
 <p>When the Agency AO determines the CSP has fully resolved the cited deficiencies and satisfied the identified criteria communicated in the notification, the Agency AO should take the following actions:</p>
 <ul>
-	<li>Notification to FedRAMP: Agency AOs must notify FedRAMP at info@fedramp.gov if an escalation has been resolved. Agency CAP release letters should be posted to the FedRAMP secure repository.</li>
+	<li><strong>Notification to FedRAMP:</strong> Agency AOs must notify FedRAMP at info@fedramp.gov if an escalation has been resolved. Agency CAP release letters should be posted to the FedRAMP secure repository.</li>
 </ul>
+</div>
+<div id="agency-conmon-risk-mgmt-triggers">
 <h2>Agency ConMon Requirements: Risk Management Deficiency Triggers   </h2>
 <hr>
 <p>To ensure consistent expectations and enforcement, an Agency AO should define risk management deficiency “triggers.” Example triggers are described in Table 2. Agency Risk Management Deficiency Triggers, below.</p>  
@@ -401,212 +408,213 @@ body-class: wiki
 <tbody>
 <tr>
 <th>
-<p><strong>CONMON PROCESS AREA</strong></p>
+<strong>CONMON PROCESS AREA</strong>
 </th>
 <th>
-<p><strong>RISK MANAGEMENT DEFICIENCY TRIGGER</strong></p>
+<strong>RISK MANAGEMENT DEFICIENCY TRIGGER</strong>
 </th>
 <th>
-<p><strong>MINIMUM ESCALATION LEVEL</strong></p>
+<strong>MINIMUM ESCALATION LEVEL</strong>
 </th>
 </tr>
 <tr>
-<td rowspan="13">
+<td rowspan="13" width="128">
 <p><strong>Operational Visibility</strong></p>
 </td>
 <td>
 <p><strong>Unique Vulnerability Count Increase</strong></p>
 <p><strong>20% from ATO baseline or 10 unique vulnerabilities, whichever is greater</strong></p>
-<p><em><span style="font-weight: 400;">Note: A request to rebaseline a unique vulnerability count, accompanied with proper justification, can be submitted to the AO and may be approved on a case by case basis.</span></em></p>
+<p><em>Note: A request to rebaseline a unique vulnerability count, accompanied with proper justification, can be submitted to the AO and may be approved on a case by case basis.</span></em></p>
 </td>
-<td>
-<p><span style="font-weight: 400;">DFR</span></p>
+<td width="128">
+<p>DFR</p>
 </td>
 </tr>
 <tr>
-<td>
+<td width="380">
 <p><strong>Non-Compliance with scanning requirements</strong></p>
 <p><strong>First incident in the previous six months</strong></p>
-<p><span style="font-weight: 400;">Unauthenticated scan results delivered as part of the initial SAR submission, as part of the annual SAR submission, or as part of the monthly scanning submission, where the unauthenticated scans are 10% or greater of the total scan submission, result in the CSP being placed on a DFR. This applies only to a CSP&rsquo;s first submission that is non-compliant with authenticated scan requirements.</span></p>
+<p>Unauthenticated scan results delivered as part of the initial SAR submission, as part of the annual SAR submission, or as part of the monthly scanning submission, where the unauthenticated scans are 10% or greater of the total scan submission, result in the CSP being placed on a DFR. This applies only to a CSP&rsquo;s first submission that is non-compliant with authenticated scan requirements.</p>
 </td>
 <td>
-<p><span style="font-weight: 400;">DFR</span></p>
+<p>DFR</p>
 </td>
 </tr>
 <tr>
-<td>
+<td width="380">
 <p><strong>Non-Compliance with scanning requirements</strong></p>
 <p><strong>Each subsequent incident beyond the first within the previous six months</strong></p>
-<p><span style="font-weight: 400;">Unauthenticated scan results delivered as part of the initial SAR submission, as part of the annual SAR submission, or as part of the monthly scanning submission, where the unauthenticated scans are 10% or greater of the total scan submission, result in the CSP being placed on a CAP, when a second or greater CSP submission is non-adherent to authenticated scan requirements.&nbsp;&nbsp;</span></p>
+<p>Unauthenticated scan results delivered as part of the initial SAR submission, as part of the annual SAR submission, or as part of the monthly scanning submission, where the unauthenticated scans are 10% or greater of the total scan submission, result in the CSP being placed on a CAP, when a second or greater CSP submission is non-adherent to authenticated scan requirements.&nbsp;&nbsp;</p>
 </td>
-<td>
-<p><span style="font-weight: 400;">CAP</span></p>
+<td width="128">
+<p>CAP</p>
 </td>
 </tr>
 <tr>
-<td>
+<td width="380">
 <p><strong>Late Remediation High Impact Vulnerabilities</strong></p>
-<p><span style="font-weight: 400;">Five or more unique vulnerabilities or POA&amp;Ms aged greater than 30 days</span></p>
+<p>Five or more unique vulnerabilities or POA&amp;Ms aged greater than 30 days</p>
 </td>
-<td>
-<p><span style="font-weight: 400;">DFR</span></p>
+<td width="128">
+<p>DFR</p>
 </td>
 </tr>
 <tr>
-<td>
+<td width="380">
 <p><strong>Late Remediation High Impact Vulnerabilities</strong></p>
-<p><span style="font-weight: 400;">Five or more unique vulnerabilities or POA&amp;Ms aged greater than 60 days</span></p>
+<p>Five or more unique vulnerabilities or POA&amp;Ms aged greater than 60 days</p>
 </td>
-<td>
-<p><span style="font-weight: 400;">CAP</span></p>
+<td width="128">
+<p>CAP</p>
 </td>
 </tr>
 <tr>
-<td>
+<td width="380">
 <p><strong>Late Remediation Moderate Impact Vulnerabilities</strong></p>
-<p><span style="font-weight: 400;">Ten or more unique vulnerabilities or POA&amp;Ms aged greater than 90 days</span></p>
+<p>Ten or more unique vulnerabilities or POA&amp;Ms aged greater than 90 days</p>
 </td>
-<td>
-<p><span style="font-weight: 400;">DFR</span></p>
+<td width="128">
+<p>DFR</p>
 </td>
 </tr>
 <tr>
-<td>
+<td width="380">
 <p><strong>Late Remediation Moderate Impact Vulnerabilities</strong></p>
-<p><span style="font-weight: 400;">Ten or more unique vulnerabilities or POA&amp;Ms aged greater than 120 days</span></p>
+<p>Ten or more unique vulnerabilities or POA&amp;Ms aged greater than 120 days</p>
 </td>
-<td>
-<p><span style="font-weight: 400;">CAP</span></p>
+<td width="128">
+<p>CAP</p>
 </td>
 </tr>
 <tr>
-<td>
+<td width="380">
 <p><strong>Late Delivery of Annual Assessment SAP</strong></p>
-<p><span style="font-weight: 400;">Delivery of Annual Assessment SAP less than 60 days before annual ATO date</span></p>
+<p>Delivery of Annual Assessment SAP less than 60 days before annual ATO date</p>
 </td>
-<td>
-<p><span style="font-weight: 400;">CAP</span></p>
+<td width="128">
+<p>CAP</p>
 </td>
 </tr>
 <tr>
-<td>
+<td width="380">
 <p><strong>Late Delivery of Annual Assessment Package</strong></p>
-<p><span style="font-weight: 400;">Delivery of Annual Assessment ATO Package after ATO anniversary date</span></p>
+<p>Delivery of Annual Assessment ATO Package after ATO anniversary date</p>
 </td>
-<td>
-<p><span style="font-weight: 400;">CAP</span></p>
+<td width="128">
+<p>CAP</p>
 </td>
 </tr>
 <tr>
-<td>
+<td width="380">
 <p><strong>Poor Quality of Deliverables</strong></p>
-<p><span style="font-weight: 400;">Untimely or inaccurate submission of any deliverable, including (but not limited to) monthly ConMon documents, Deviation Requests, or Significant Change Requests</span></p>
+<p>Untimely or inaccurate submission of any deliverable, including (but not limited to) monthly ConMon documents, Deviation Requests, or Significant Change Requests</p>
 </td>
-<td>
-<p><span style="font-weight: 400;">DFR</span></p>
+<td width="128">
+<p>DFR</p>
 </td>
 </tr>
 <tr>
-<td>
+<td width="380">
 <p><strong>Lack of Transparency</strong></p>
-<p><span style="font-weight: 400;">Failure to report known issues to the AO or purposely manipulating scans to avoid Risk Management Triggers</span></p>
+<p>Failure to report known issues to the AO or purposely manipulating scans to avoid Risk Management Triggers</p>
 </td>
-<td>
-<p><span style="font-weight: 400;">CAP</span></p>
+<td width="128">
+<p>CAP</p>
 </td>
 </tr>
 <tr>
-<td>
+<td width="380">
 <p><strong>Multiple Recurrences</strong></p>
-<p><span style="font-weight: 400;">Any trigger that is realized multiple times within a six-month timeframe</span></p>
+<p>Any trigger that is realized multiple times within a six-month timeframe</p>
 </td>
-<td>
-<p><span style="font-weight: 400;">CAP</span></p>
+<td width="128">
+<p>CAP</p>
 </td>
 </tr>
 <tr>
-<td>
+<td width="380">
 <p><strong>Insufficient Notice of Planned Change</strong></p>
-<p><span style="font-weight: 400;">Notification received less than 30 days before the planned change or insufficient documentation of the Security Impact Analysis</span></p>
+<p>Notification received less than 30 days before the planned change or insufficient documentation of the Security Impact Analysis</p>
 </td>
-<td>
-<p><span style="font-weight: 400;">CAP</span></p>
+<td width="128">
+<p>CAP</p>
 </td>
 </tr>
 <tr>
-<td rowspan="3">
+<td rowspan="3" width="128">
 <p><strong>Change Control</strong></p>
 </td>
 <td>
 <p><strong>Late Notice of Emergency Change</strong></p>
-<p><span style="font-weight: 400;">Notification received longer than five days after the change</span></p>
+<p>Notification received longer than five days after the change</p>
 </td>
-<td>
-<p><span style="font-weight: 400;">CAP</span></p>
+<td width="128">
+<p>CAP</p>
 </td>
 </tr>
 <tr>
-<td>
+<td width="380">
 <p><strong>Undocumented/Unreported Change</strong></p>
-<p><span style="font-weight: 400;">No notification</span></p>
+<p>No notification</p>
 </td>
-<td>
-<p><span style="font-weight: 400;">CAP</span></p>
+<td width="128">
+<p>CAP</p>
 </td>
 </tr>
 <tr>
-<td>
+<td width="380">
 <p><strong>Degradation of the Change Management and Change Control Processes</strong></p>
-<p><span style="font-weight: 400;">Insufficient adherence to the provided Configuration Management Plan as determined by the AO</span></p>
+<p>Insufficient adherence to the provided Configuration Management Plan as determined by the AO</p>
 </td>
-<td>
-<p><span style="font-weight: 400;">DFR</span></p>
+<td width="128">
+<p>DFR</p>
 </td>
 </tr>
 <tr>
-<td rowspan="4">
+<td rowspan="4" width="128">
 <p><strong>Incident Response</strong></p>
 </td>
-<td>
+<td width="380">
 <p><strong>Late Incident Notification</strong></p>
-<p><span style="font-weight: 400;">Late notification of incident not in accordance with the Incident Communications Procedure and United States Computer Emergency Readiness Team (US-CERT) Federal Incident Notification Guidelines</span></p>
-<p><em><span style="font-weight: 400;">Note:&nbsp; An incident is a violation of computer security policies, acceptable use policies, or standard computer security practices, according to NIST Special Publication 800-61, </span></em><span style="font-weight: 400;">Computer Security Incident Handling Guide</span><em><span style="font-weight: 400;">, Revision 2.</span></em></p>
+<p>Late notification of incident not in accordance with the Incident Communications Procedure and United States Computer Emergency Readiness Team (US-CERT) Federal Incident Notification Guidelines</p>
+<p><em>Note:&nbsp; An incident is a violation of computer security policies, acceptable use policies, or standard computer security practices, according to NIST Special Publication 800-61, </span></em>Computer Security Incident Handling Guide</span><em>, Revision 2.</span></em></p>
 </td>
-<td>
-<p><span style="font-weight: 400;">CAP</span></p>
+<td width="128">
+<p>CAP</p>
 </td>
 </tr>
 <tr>
-<td>
+<td width="380">
 <p><strong>Incident Frequency of Recurring Type</strong></p>
-<p><span style="font-weight: 400;">Any incident with recurring type and/or cause</span></p>
+<p>Any incident with recurring type and/or cause</p>
 </td>
-<td>
-<p><span style="font-weight: 400;">CAP</span></p>
+<td width="128">
+<p>CAP</p>
 </td>
 </tr>
 <tr>
-<td>
+<td width="380">
 <p><strong>Incident Frequency</strong></p>
-<p><span style="font-weight: 400;">Four or more incidents within six months</span></p>
+<p>Four or more incidents within six months</p>
 </td>
-<td>
-<p><span style="font-weight: 400;">DFR</span></p>
+<td width="128">
+<p>DFR</p>
 </td>
 </tr>
 <tr>
-<td>
+<td width="380">
 <p><strong>Timely and Ongoing Notification of Zero-day Attack</strong></p>
-<p><span style="font-weight: 400;">Failure to provide to the AO daily updated progress in addressing zero-day attacks</span></p>
+<p>Failure to provide to the AO daily updated progress in addressing zero-day attacks</p>
 </td>
-<td>
-<p><span style="font-weight: 400;">CAP</span></p>
+<td width="128">
+<p>CAP</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-
+</div>
+<div id="fedramp-for-agency-atos">
 <h3>FedRAMP Responsibilities for Agency ATOs   </h3>
 <p>The FedRAMP PMO monitors Agency ATO packages to ensure that the service remains in good standing. Specifically, FedRAMP ensures:</p>
 <ul>
@@ -614,3 +622,4 @@ body-class: wiki
 <li>The latest SAR recommends continued authorization; and</li>
 <li>The FedRAMP Marketplace and repository appropriately reflects authorization, suspension and revocation status.</li>
 </ul>
+</div>
