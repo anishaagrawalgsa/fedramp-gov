@@ -6,7 +6,7 @@ $footer-margin: 0 2.5% 0 0;
 footer {
 	width: 100%;
 	background: $dark-blue;
-	padding: 50px 0 60px;
+	padding: 56px 0 60px;
 	
 	h5 {
 		text-align: left;
@@ -58,7 +58,7 @@ ul.quick-links {
 	}
 	
 	a:visited {
-	counter-reset: $lighter-teal !important;
+		color: $lighter-teal !important;
 	}
 	
 	a:hover {
@@ -69,8 +69,8 @@ ul.quick-links {
 .footer-ql-icons {
 	color: $lighter-teal;
 	background: #455874;
-	height: 24px;
-	width: 24px;
+	height: 22px;
+	width: 22px;
 	font-size: 12px;
 	border-radius: 50%;
 	padding: 1px 0 0 1px;
@@ -89,7 +89,7 @@ ul.quick-links {
 }
 
 .col-2, .col-3 {
-	border-right: $teal solid 1px;
+	border-right: #0A577D solid 1px;
 	min-height: 200px;
 }
 
