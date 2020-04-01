@@ -37,12 +37,17 @@ footer {
 	}
 }
 
+footer-gsa-logo {
+	max-width: 110px;
+}
+
 address p:last-of-type, address p {
 	margin: 0;
 }
 
 .street-address p {
 	font-weight: 600;
+	margin-bottom: 4px;
 }
 
 ul.quick-links {
@@ -51,7 +56,7 @@ ul.quick-links {
 }
 
 .quick-links li {
-	margin-bottom: 16px;
+	margin-bottom: 8px;
 	
 	a {
 		text-decoration: none;
@@ -74,7 +79,7 @@ ul.quick-links {
 	width: 22px;
 	font-size: 12px;
 	border-radius: 50%;
-	padding: 1px 0 0 1px;
+	padding: 2px 0 0 0;
 }
 
 .footer-container {
@@ -89,9 +94,9 @@ ul.quick-links {
 	margin: $footer-margin;
 }
 
-.col-2, .col-3 {
+.f-col-1, .f-col-2, .f-col-3 {
 	border-right: #0A577D solid 1px;
-	min-height: 200px;
+	min-height: 230px;
 }
 
 
@@ -103,24 +108,43 @@ ul.quick-links {
 
 
 .footer-social, address .contact {
-	display: flex;
 	flex-flow: row;
 	align-items: center;
 }
 
-.footer-social a.usa-link-twitter {
-	margin: 0 !important;
-	color: $lighter-teal;
-	img {
-		fill: $lighter-teal;
-		color: $lighter-teal;
+.footer-social {
+	a {
+		margin: 0 !important;
+		color: $light-teal;
+		text-decoration: none;
+		font-weight: bold;
 	}
+	
+	p {
+		font-size: 14px;
+		font-weight: 700;
+	}
+}
+
+.footer-mail-icon {
+	width: 28px;
+	margin-right: 10px;
+	position: relative;
+	top: 4px;
+}
+
+.framp-twitter {
+	position: relative;
+	top: 4px;
+	margin-right: 10px;
+	color: $light-teal;
 }
 
 p.footer-contact {
 	color: $light-teal;
 	font-weight: 600;
 	margin-right: 10px !important;
+	margin-bottom: 6px;
 	text-transform: uppercase;
 }
 
@@ -168,7 +192,7 @@ p.footer-follow-us {
 		padding: 0 20px;
 	}
 	
-	.col-2 {
+	.footer .f-col-2 {
 		border-right: none;
 	}
 	
@@ -180,7 +204,7 @@ p.footer-follow-us {
 		text-align: center;
 	}
 	
-	.col-3 {
+	.f-col-3 {
 		padding-left: 60px;
 	}
 }
@@ -196,10 +220,18 @@ p.footer-follow-us {
 		margin-top: 0;
 	}
 	
-	.col-2, .col-3 {
+	.f-col-1, .f-col-2, .f-col-3 {
 		border-right: none;
 		border-bottom: $teal solid 1px;
 		min-height: auto;
+	}
+	
+	.f-col-1 {
+		border-bottom: none;
+	}
+	
+	.f-col-2 {
+		padding-bottom: 20px;
 	}
 	
 	input.footer-submit {
@@ -351,6 +383,7 @@ p.footer-follow-us {
 			.street-address {
 			p {
 				text-align: center;
+				margin-bottom: 4px;
 			}
 			}
 		}
