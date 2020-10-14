@@ -5,11 +5,11 @@ category: FedRAMP Program Documents
 filename: FedRAMP_Joint_Authorization_Board_Charter.pdf
 filetype: pdf
 condition: new
-partner: Agencies
+partner: All Partners
 doctype:
-  - Guidance
+  - Policy
 tags:
-  - two
-  - four
+  - Joint Authorization Board
+  - JAB authorization
 ---
 The purpose of this Charter is to define the authority, objectives, membership, roles and responsibilities, meeting schedule, decision making requirements, and establishment of committees for the FedRAMP Joint Authorization Board (JAB) in accordance with OMB Memo "Security Authorizations of Information Systems in Cloud Computing Environments."
