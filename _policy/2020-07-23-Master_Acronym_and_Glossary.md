@@ -9,9 +9,8 @@ partner: All Partners
 doctype:
   - Guidance
 tags:
-  - one
-  - two
-  - three
-  - four
+  - agency
+  - CSP
+  - 3PAO
 ---
 This document is a master list of FedRAMP acronyms and program definitions.
