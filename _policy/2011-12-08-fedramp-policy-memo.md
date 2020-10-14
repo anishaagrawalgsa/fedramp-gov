@@ -8,6 +8,7 @@ condition: update
 partner: Assessors
 doctype:
   - Policy
+  - doc 
   
 tags: 
   - federal policy
